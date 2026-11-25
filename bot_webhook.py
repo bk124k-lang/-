@@ -18,7 +18,7 @@ from aiohttp import web
 
 # ==================== НАСТРОЙКИ ====================
 # Задай эти переменные в настройках хостинга (Environment Variables).
-BOT_TOKEN = os.getenv("9286582697:AAFin20uHLeAwN8EG-KIDABZKi5SWOOMmEE", "")
+BOT_TOKEN = os.getenv("9286582697:AAFin20uHLeAwN8EG-KIDABZKi5SWOOMmEE")
 WEBHOOK_URL = os.getenv("WEBHOOK_URL", "").rstrip("/")
 WEBHOOK_SECRET = os.getenv("WEBHOOK_SECRET", "change_this_secret_123456")
 WEBHOOK_PATH = f"/webhook/{WEBHOOK_SECRET}"
